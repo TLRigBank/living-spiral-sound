@@ -1,0 +1,41 @@
+# Local audio workspace (use Releases or LFS for shared audio)
+audio/
+*.wav
+*.aif
+*.aiff
+*.flac
+*.mp3
+*.m4a
+*.ogg
+*.wma
+*.zip
+*.rar
+
+# DAW junk
+*.als
+*.alc
+*.adg
+*.adv
+*.nks*
+*. logically
+*.reason
+*.rns
+*.bwproject
+*.cpr
+*.rpp-bak
+Backup/
+Peaks/
+Freeze/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Python analysis scratch
+__pycache__/
+.venv/
+*.pyc
+/tmp/

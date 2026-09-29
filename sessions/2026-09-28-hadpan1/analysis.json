@@ -1,0 +1,40 @@
+{
+  "session_id": "2026-09-28-hadpan1",
+  "duration_s": 308.16,
+  "format": {
+    "codec": "aac_lc",
+    "sample_rate": 48000,
+    "channels": 1,
+    "bitrate_kbps": 71
+  },
+  "pulse": {
+    "primary_bpm": [92, 94],
+    "median_folded_bpm": 92.3,
+    "half_time_bpm": 46,
+    "onsets": 513,
+    "ioi_median_s": 0.441
+  },
+  "tuning": {
+    "reference_claim": "closer_to_440_than_432",
+    "ding_d3_hz": 148.0,
+    "a4_hz": 442.0,
+    "notes": "A4 measured 441-444 Hz depending on method; mix to the pan"
+  },
+  "played_language": ["D3", "D4", "D5", "E4", "A4"],
+  "unused_melody_degrees": ["F", "G", "Bb", "C"],
+  "cells": [
+    "D5-D4-D5",
+    "A4-D5-A4",
+    "E4-A4-E4"
+  ],
+  "form": [
+    {"start": 0, "end": 15, "role": "enter"},
+    {"start": 16, "end": 60, "role": "wave1"},
+    {"start": 60, "end": 80, "role": "breath"},
+    {"start": 80, "end": 140, "role": "wave2"},
+    {"start": 140, "end": 150, "role": "drop"},
+    {"start": 168, "end": 190, "role": "wave3"},
+    {"start": 220, "end": 240, "role": "breath2"},
+    {"start": 272, "end": 308, "role": "finale_no_land"}
+  ]
+}
