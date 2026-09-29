@@ -17,7 +17,6 @@ audio/
 *.adg
 *.adv
 *.nks*
-*. logically
 *.reason
 *.rns
 *.bwproject
@@ -38,4 +37,3 @@ Thumbs.db
 __pycache__/
 .venv/
 *.pyc
-/tmp/
